@@ -1,0 +1,78 @@
+<script>
+    const searchInput = document.getElementById("search");
+    const cards = document.querySelectorAll(".card");
+
+    searchInput.addEventListener("input", function () {
+        let value = this.value.toLowerCase().trim();
+
+        cards.forEach(card => {
+            let title = card.querySelector("h2").textContent.toLowerCase();
+            let description = card.querySelector("p").textContent.toLowerCase();
+
+            if (title.includes(value) || description.includes(value)) {
+                card.style.display = "block";
+            } else {
+                card.style.display = "none";
+            }
+        });
+    });
+</script>
+<script>
+    const cartItems = document.getElementById("cart-items");
+    const totalPriceEl = document.getElementById("total-price");
+    let cart = [];
+    
+    // Додавання в кошик
+    document.querySelectorAll(".add-to-cart").forEach(button => {
+        button.addEventListener("click", function (e) {
+            e.preventDefault();
+
+            let name = this.dataset.name;
+            let price = Number(this.dataset.price);
+
+            let item = cart.find(i => i.name === name);
+
+            if (item) {
+                item.qty++;
+            } else {
+                cart.push({ name, price, qty: 1 });
+            }
+
+            updateCart();
+        });
+    });
+
+    // Оновлення кошика
+    function updateCart() {
+        cartItems.innerHTML = "";
+        let total = 0;
+
+        cart.forEach(item => {
+            total += item.price * item.qty;
+
+            let li = document.createElement("li");
+            li.innerHTML = `
+                ${item.name} × ${item.qty} — ${item.price * item.qty} грн
+                <span class="remove-item" data-name="${item.name}">×</span>
+            `;
+            cartItems.appendChild(li);
+        });
+
+        totalPriceEl.textContent = total;
+
+        // Видалення товару
+        document.querySelectorAll(".remove-item").forEach(btn => {
+            btn.addEventListener("click", function () {
+                let name = this.dataset.name;
+                cart = cart.filter(i => i.name !== name);
+                updateCart();
+            });
+        });
+    }
+
+    // Очистити кошик
+    document.getElementById("clear-cart").addEventListener("click", () => {
+        cart = [];
+        updateCart();
+    });
+</script>
