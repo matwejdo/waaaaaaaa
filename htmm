@@ -1,0 +1,185 @@
+<html>
+
+<body>
+
+    <header></header>
+    <article class="main_info">
+        <div class="info_container">
+            <h1>Піца Цезар</h1>
+            <h3>
+            Вершкового соусу, стиглих томатів, ніжного курячого філе, повітряного сиру Філадельфія, молочної моцарели і присипки у вигляді міксу салату, заправленого пікантним соусом.
+            </h3>
+            <div>
+                <h2> Цiна:215грн </h2>
+                <a href="" class="zamoviti">
+                    Замовити
+                </a>
+            </div>
+        </div>
+        <img width="350" src="https://5553.com.ua/img/products/100001123/image-100001123-01615914484.jpg">
+    </article>
+
+
+    <article class="main_info">
+        <div>
+            <h3>
+                <h1>Піца Вулкан</h1>
+                Піца Вулкан 40см складається: сирного борту, вершкового соусу, шинки, салямі, томату, цибулі, сирного соусу, картоплі фрі, моцарели та пармезану.
+
+
+            </h3>
+             <div>
+                <h2> Цiна:315грн </h2>
+                <a href="" class="zamoviti">
+                    Замовити
+                </a>
+            </div>
+        </div>
+        <img width="350" src="https://5553.com.ua/img/products/100001347/image-100001347-01727589135.jpg"">
+</article>
+
+
+<article class = "main_info">
+        <div>
+            <h3>
+                <h1>Піца Морепродукти</h1>
+                Вершкового соусу, стиглих томатів, ніжною моцарели, пряних оливок, кислого лимона і морського коктейлю (мідії, креветки, лосось)
+            </h3>
+             <div>
+                <h2> Цiна:500грн </h2>
+                <a href="" class="zamoviti">
+                    Замовити
+                </a>
+            </div>
+        </div>
+        <img width="350" src="https://5553.com.ua/img/products/100001121/image-100001121-01615914506.jpg">
+    </article>
+
+
+    <article class="main_info">
+        <div>
+            <h3>
+                <h1>Піца пеппероні</h1>
+                Соусу барбекю, салямі, болгарського перцю, цибулі, зелені, моцарели.
+            </h3>
+             <div>
+                <h2> Цiна:181грн </h2>
+                <a href="" class="zamoviti">
+                    Замовити
+                </a>
+            </div>
+        </div>
+        <img width="350" src="https://5553.com.ua/img/products/100001337/image-100001337-01669456231.jpg">
+    </article>
+
+    <article class="main_info">
+        <div>
+            <h3>
+               <h1>Піца Філадельфія</h1> Вершкового соусу, вершкової моцарели, легкої філадельфії і ніжного лосося.
+            </h3>
+             <div>
+                <h2> Цiна:226грн </h2>
+                <a href="" class="zamoviti">
+                    Замовити
+                </a>
+            </div>
+        </div>
+        <img width="350" src="https://5553.com.ua/img/products/100001135/image-100001135-01615914399.jpg">
+    </article>
+
+    <article class="main_info">
+        <div>
+            <h3>
+                <h1>Піца Вегетаріанська</h1>Основний інгредієнт - італійська ковбаса калабрезе. Ще додають цибулю кільцями та цілі
+                чорні оливки.
+            </h3>
+             <div>
+                <h2> Цiна:160грн </h2>
+                <a href="" class="zamoviti">
+                    Замовити
+                </a>
+            </div>
+        </div>
+        <img width="350" src="https://5553.com.ua/img/products/100001127/image-100001127-01615914456.jpg">
+    </article>
+
+    <article class="main_info">
+        <div>
+            <h3>
+                <h1>Піца Мікеланджело</h1>Складається з соусу барбекю, салямі, маринованих огірків, томатів, картоплі фрі, сиру чеддер.
+            </h3>
+             <div>
+                <h2> Цiна:219грн </h2>
+                <a href="" class="zamoviti">
+                    Замовити
+                </a>
+            </div>
+        </div>
+        <img width="350" src="https://5553.com.ua/img/products/100001263/image-100001263-01626112768.jpg">
+    </article>
+
+    <article class="main_info">
+        <div>
+            <h3>
+                <h1>Піца 4 м'яса</h1>Тесто, моцарелла, ветчина, грибы, томаты, артишоки,прошутто, оливки, яйца.
+            </h3>
+             <div>
+                <h2> Цiна:220грн </h2>
+                <a href="" class="zamoviti">
+                    Замовити
+                </a>
+            </div>
+        </div>
+        <img width="350" src="https://5553.com.ua/img/products/100001236/image-100001236-01615915287.jpg">
+    </article>
+
+
+    <article class="main_info">
+        <div>
+            <h3>
+                <h1>Піца 4 сира</h1>Вершкового соусу, ніжною моцарели, пряного пармезану, насиченого дорблю та соковитого Емменталя.
+            </h3>
+             <div>
+                <h2> Цiна:209грн </h2>
+                <a href="" class="zamoviti">
+                    Замовити
+                </a>
+            </div>
+        </div>
+        <img width="350" src="https://5553.com.ua/img/products/100001119/image-100001119-01615914520.jpg">
+    </article>
+
+    <article class="main_info">
+        <div>
+            <h3>
+                <h1>Піца Гавайська</h1>білого соусу, сиру, ананасів і курки.
+            </h3>
+             <div>
+                <h2> Цiна:195грн </h2>
+                <a href="" class="zamoviti">
+                    Замовити
+                </a>
+            </div>
+        </div>
+        <img width="300" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVOnLbK2K4c84Gx0wO4MrYpHM6Rv1aJ7ExR49Yr4QbO6AH7cPx-KA5QKXGGG1xjdtPwLw&usqp=CAU">
+    </article>
+
+    <article class="main_info">
+        <div>
+            <h3>
+                <h1>Піца Баварська</h1> Томатного соусу, мисливських ковбасок, соковитою шинки, солодкого перцю, ароматних грибів, спілих томатів і ніжною моцарели.
+            </h3>
+             <div>
+                <h2> Цiна:211грн </h2>
+                <a href="" class="zamoviti">
+                    Замовити
+                </a>
+            </div>
+        </div>
+        <img width="350" src="https://5553.com.ua/img/products/100001117/image-100001117-01615914535.jpg">
+    </article>
+
+
+</body>
+
+</html>
